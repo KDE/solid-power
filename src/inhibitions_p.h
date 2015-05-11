@@ -22,7 +22,6 @@
 #include <QHash>
 
 #include "inhibitinterface.h"
-#include "powermanagementinterface.h"
 #include "policyagentinterface.h"
 
 class InhibitionsPrivate
