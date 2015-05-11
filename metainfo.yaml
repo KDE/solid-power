@@ -1,0 +1,13 @@
+maintainer: lukas
+description: Power management framework
+tier: 1
+type: integration
+platforms:
+    - name: Unix
+portingAid: false
+deprecated: false
+release: false
+libraries:
+ - qmake: SolidPower
+   cmake: "KF5::SolidPower"
+cmakename: KF5SolidPower
