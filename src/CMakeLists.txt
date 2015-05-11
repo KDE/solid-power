@@ -35,7 +35,7 @@ add_library(KF5::SolidPower ALIAS KF5SolidPower)
 target_include_directories(KF5SolidPower INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/Solid/Power>")
 
 target_link_libraries(KF5SolidPower PUBLIC Qt5::Core
-                                    PRIVATE Qt5::DBus
+                                    PRIVATE Qt5::DBus pthread
 )
 
 set_target_properties(KF5SolidPower PROPERTIES VERSION ${SOLIDPOWER_VERSION_STRING}
